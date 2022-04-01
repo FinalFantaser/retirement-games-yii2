@@ -63,6 +63,20 @@ class Game extends \yii\db\ActiveRecord
         ];
     }
 
+    public function fields(){
+        return [
+            'name',
+            'genre',
+            'developer',
+            'release_date',
+            'platform',
+            'media_type',
+            'status',
+            'remarks',
+            'added_date',
+        ];
+    }
+
     /**
      * Gets query for [[User]].
      *
